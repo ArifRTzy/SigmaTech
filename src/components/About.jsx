@@ -29,7 +29,7 @@ const About = () => {
             src={thumbnails}
             alt="thumbnail"
             onClick={handleImageClick}
-            className="xl:w-[70%] absolute cursor-pointer mx-auto h-[420px] rounded-xl shadow-lg z-10 mid:w-[55%] mid:h-[350px]"
+            className="xl:w-[70%] absolute cursor-pointer mx-auto xl:h-[420px] rounded-xl shadow-lg z-10 mid:w-[55%] mid:h-[350px] sm:w-[70%] sm:h-[280px] w-[90%] h-[250px]"
           />
             }
           <iframe
