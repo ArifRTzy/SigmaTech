@@ -18,7 +18,7 @@ function Hero() {
             </div>
           </div>
           <div className="mid:mt-16 sm:mt-10 mt-6 mid:justify-start justify-center flex sm:flex-row flex-col items-center sm:items-start">
-            <button className="bg-[#9296fe] text-black font-semibold px-4 py-2 border-solid border-[#9296fe] border-2 rounded-md mid:text-xl text-lg sm:mr-5">Beli Sekarang</button>
+            <button className="bg-[#9296fe] text-black font-semibold px-4 py-2 border-solid border-[#9296fe] border-2 rounded-md mid:text-xl text-lg sm:mr-5">Pesan Sekarang</button>
             <button className="border-solid border-[#9296fe] font-semibold border-2 text-[#9296fe] px-4 py-2 rounded-md mid:text-xl text-lg sm:mt-0 mt-3">Pilih Desain</button>
           </div>
         </div>

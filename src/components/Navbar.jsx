@@ -24,7 +24,7 @@ const Navbar = () => {
   },[])
 
   return (
-    <div className={`w-full bg-black mid:h-16 border-b-[1px] border-[#333333] border-solid fixed z-10 ${!isOpen ? 'h-16' : 'pt-[13.5px]'}`}>
+    <div className={`w-full backdrop-blur-lg bg-black/90 mid:h-16 border-b-[1px] border-[#333333] border-solid fixed z-30 ${!isOpen ? 'h-16' : 'pt-[13.5px]'}`}>
       <nav className='xl:w-[70%] mx-auto items-center flex justify-between h-full lg:w-[80%] w-[95%]'>
         <div>
             <h2 className='text-white font-bold text-3xl'>SigmaTech</h2>

@@ -12,15 +12,15 @@ const About = () => {
     <div className="bg-black w-full">
       <div className="xl:w-[70%] mx-auto mid:pt-0 pt-16">
         <h1 className="bg-gradient-to-r from-[#5B61FE] to-[#9296fe] mid:w-full text-center bg-clip-text text-transparent lg:text-5xl mid:text-4xl text-3xl font-bold justify-center flex">
-          Jasa Pembuatan Website IDwebhost, <br />
+          Jasa Pembuatan Website SigmaTech, <br />
           Solusi Cara Membuat Website Mudah
         </h1>
-        <p className="text-white text-center justify-center mid:text-xl text-lg sm:px-[15%] my-8">
+        <p className="text-white text-center justify-center mid:text-xl text-lg sm:px-[10%] my-8 font-light">
           Kamu tidak perlu ribet dengan proses pembuatannya. SigmaTech
           memastikan website kamu siap online dalam 2 hari. Dapatkan harga
           termurah se Indonesia mulai dari{" "}
-          <span className="font-bold">Rp100.000,00</span>. <br />
-          <span className="font-bold">DISKON</span> 40% untuk design sendiri.
+          <span className="font-semibold">Rp100.000,00</span>. <br />
+          <span className="font-semibold">DISKON</span> 40% untuk design sendiri.
         </p>
         <div className="relative flex justify-center items-center w-full">
             {
