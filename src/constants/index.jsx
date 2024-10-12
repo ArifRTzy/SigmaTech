@@ -8,9 +8,9 @@ export const navbar = [
     {title : "About", url: ""},
     {title : "Layanan", url: ""},
     {title : "Order", url: ""},
-    {title : "Desain", url: ""},
     {title : "Kelebihan", url: ""},
     {title : "FAQ", url: ""},
+    {title : "Kontak", url: ""},
 ]
 
 export const layanans = [

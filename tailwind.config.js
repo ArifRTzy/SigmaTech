@@ -11,7 +11,11 @@ export default {
       },
       screens:{
         mid : "900px",
-      }
+        vm: "390px"
+      },
+      // boxShadow:{
+      //   sdw: "0px 12px 50px -18px #FFFFFF80" 
+      // }
     },
   },
   plugins: [],

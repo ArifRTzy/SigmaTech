@@ -7,6 +7,7 @@ import company from "/assets/company.svg"
 import portfolio from "/assets/portfolio.svg"
 import katalog from "/assets/katalog.svg"
 import custom from "/assets/custom.svg"
+import iphone from "/assets/iphone.png"
 
 export const checks = check
 export const silvanaBG = silvana
@@ -17,3 +18,4 @@ export const companies = company
 export const portfolios = portfolio
 export const katalogs = katalog
 export const customs = custom
+export const iphones = iphone
