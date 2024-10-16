@@ -11,7 +11,7 @@ const Footer = () => {
             </div>
             <div className="flex-1 md:pl-16 md:pt-0 pt-4">
                 <h2 className='text-white font-bold text-xl pb-2 '>Navigation</h2>
-                <ul className="grid grid-cols-2 vm:grid-cols-3">
+                <ul className="grid grid-cols-2 vm:grid-cols-3 gap-2">
                     {
                         navbar.map(({title, url})=>(
                             <li key={title} className='text-[#888888] font-poppins text-base hover:text-white w-fit'><a href={url}>{title}</a></li>
@@ -30,7 +30,7 @@ const Footer = () => {
                 </div>
             </div>
         </div>
-        <p className='text-[#888888] text-center pt-10 pb-2'>© 2024 Websitein. All rights reserved.</p>
+        <p className='text-[#888888] text-center pt-10 pb-2'>© 2024 SigmaTech. All rights reserved.</p>
       </div>
     </div>
   )
