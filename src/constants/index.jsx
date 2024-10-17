@@ -4,13 +4,13 @@ import { katalogs } from "../utils"
 import { customs } from "../utils"
 
 export const navbar = [
-    {title : "Home", url: ""},
-    {title : "About", url: ""},
-    {title : "Layanan", url: ""},
-    {title : "Order", url: ""},
-    {title : "Kelebihan", url: ""},
-    {title : "FAQ", url: ""},
-    {title : "Kontak", url: ""},
+    {title : "Home", url: "#home"},
+    {title : "About", url: "#about"},
+    {title : "Layanan", url: "#layanan"},
+    {title : "Order", url: "#order"},
+    {title : "Kelebihan", url: "#kelebihan"},
+    {title : "FAQ", url: "#faq"},
+    {title : "Kontak", url: "#kontak"},
 ]
 
 export const layanans = [
@@ -30,7 +30,7 @@ export const benefits = [
 
 export const kelebihan = [
     {img: murah, title: "Murah", text: "SigmaTech menawarkan solusi website mulai dari Rp100.000, pilihan terbaik untuk Anda yang membutuhkan layanan murah dan berkualitas."},
-    {img: diskon, title: "Diskon", text: "Dapatkan diskon 30% untuk pembuatan website dari desain Anda sendiri, seperti dari Figma, dan kami akan mewujudkannya."},
+    {img: diskon, title: "Diskon", text: "Dapatkan diskon 40% untuk pembuatan website dari desain Anda sendiri, seperti dari Figma, dan kami akan mewujudkannya."},
     {img: seo, title: "Support Seo", text: "Layanan SEO dari SigmaTech membantu website Anda muncul di puncak hasil pencarian Google, meningkatkan trafik secara efektif."},
     {img: phones, title: "Layanan 24/7", text: "SigmaTech siap membantu kapan saja, dengan dukungan layanan pelanggan 24/7 untuk kebutuhan atau pertanyaan Anda."},
     {img: hosting, title: "Gratis Hosting", text: "SigmaTech menyediakan hosting gratis di Vercel, memastikan website Anda dapat diakses dengan cepat dan aman."}    
@@ -72,12 +72,12 @@ export const faq = [
   ];
   
 export const kontak = [
-  {img: instagrams, url: ""},
-  {img: tiktoks, url: ""},
-  {img: whatsapps, url: ""},
+  {img: instagrams, url: "https://www.instagram.com/ariframadhan720/?igsh=MTF5NDU4dTBnYjhiYw%3D%3D"},
+  {img: tiktoks, url: "https://www.tiktok.com"},
+  {img: whatsapps, url: "https://wa.me/6288216438226"},
 ]
 
 export const more = [
-  {img: instagrams, url: ""},
-  {img: githubs, url: ""}
+  {img: instagrams, url: "https://www.instagram.com/ariframadhan720/?igsh=MTF5NDU4dTBnYjhiYw%3D%3D"},
+  {img: githubs, url: "https://github.com/ArifRTzy/"}
 ]

@@ -3,7 +3,7 @@ import { checks, iphones } from "../utils";
 
 const Order = () => {
   return (
-    <div className="w-full bg-black">
+    <div className="w-full bg-black" id="order">
       <div className="xl:w-[70%] mx-auto bg-[#181818] rounded-2xl lg:w-[80%] w-[95%]">
         <div className="w-full bg-gradient-to-r from-pink-500 to-orange-400 h-8 rounded-tr-2xl rounded-tl-2xl hidden mid:flex items-center">
           <div className="flex gap-2 items-center h-full pl-4">
@@ -21,8 +21,7 @@ const Order = () => {
               Buat Website Sesuai Keinginanmu!
             </h1>
             <p className="text-white font-light mid:text-xl text-lg pb-6 mid:pb-12">
-              Cocok untuk Website Perusahaan, Website Pribadi, Blog, dan Toko
-              Online
+              Cocok untuk Website profil perusahaan hingga website kustom, kami siap membantu.
             </p>
           </div>
           <div className="flex mid:flex-row flex-col items-center">
@@ -42,9 +41,11 @@ const Order = () => {
                   </div>
                 ))}
               </div>
+              <a href="https://wa.me/6288216438226?text=Saya%20ingin%20pesan">
                 <button className="bg-[#9296fe] text-black font-semibold px-4 py-2 border-solid border-[#9296fe] border-2 rounded-md mid:text-xl text-lg">
                 Pesan Sekarang
               </button>
+              </a>
             </div>
             </div>
             <img src={iphones} alt="iphone" className="mid:w-[50%] mid:h-[50%] w-full mid:order-2 order-1 mid:mb-0 mb-6" />

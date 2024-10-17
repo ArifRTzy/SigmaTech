@@ -3,7 +3,7 @@ import { kontak } from "../constants"
 
 const Kontak = () => {
   return (
-    <div className='w-full bg-black py-20'>
+    <div className='w-full bg-black py-20' id="kontak">
       <div className="lg:w-[80%] xl:w-[70%] lg:px-0 px-5 mx-auto">
         <h1 className='bg-gradient-to-r from-[#5B61FE] to-[#9296fe] text-center mid:w-full bg-clip-text text-transparent lg:text-5xl mid:text-4xl text-3xl font-bold'>Butuh Bantuan?</h1>
         <p className='text-white mid:text-xl text-lg font-light text-center pt-6'>Anda bisa berkonsultasi dengan kami terlebih dahulu untuk mendapatkan informasi yang lebih jelas.</p>

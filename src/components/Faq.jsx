@@ -56,7 +56,7 @@ const Faq = () => {
   }, []);
 
   return (
-    <div className="bg-black w-full lg:h-[calc(100vh-64px)]">
+    <div className="bg-black w-full lg:h-[calc(100vh-64px)]" id="faq">
       <div className="lg:w-[80%] xl:w-[70%] lg:px-0 px-5 mx-auto h-full lg:flex">
         <div className="h-full flex flex-col lg:w-[35%]">
           <h1 className="bg-gradient-to-r from-[#5B61FE] to-[#9296fe] mid:w-full bg-clip-text text-transparent lg:text-5xl mid:text-4xl text-3xl font-bold">

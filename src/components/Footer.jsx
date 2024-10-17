@@ -2,7 +2,7 @@ import { more, navbar } from '../constants'
 
 const Footer = () => {
   return (
-    <div className='w-full bg-black border-t-[1px] border-[#333333] pt-10'>
+    <div className='w-full bg-black border-t-[1px] border-[#333333] pt-12'>
       <div className="lg:w-[80%] xl:w-[70%] lg:px-0 px-5 mx-auto">
         <div className=" w-full justify-between md:flex">
             <div className="">
